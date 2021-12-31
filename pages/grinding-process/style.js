@@ -1,0 +1,105 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    height: 52,
+    paddingHorizontal: '4%',
+  },
+  back: {
+    height: 32,
+    width: 32,
+    resizeMode: 'contain',
+  },
+  title: {
+    color: '#FFFFFF',
+    fontSize: 22,
+    lineHeight: 24,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    marginLeft: '-4%',
+  },
+  container: {flex: 1, justifyContent: 'center', alignItems: 'center'},
+  waitAndBack: {
+    fontWeight: '500',
+    color: '#FFFFFF',
+    fontSize: 16,
+    lineHeight: 16,
+    textAlign: 'center',
+  },
+  stop: {lineHeight: 16, color: '#EB5757', paddingHorizontal: 8, fontSize: 14},
+  cancel: {
+    color: '#EB5757',
+    paddingHorizontal: 8,
+    fontSize: 14,
+    borderBottomColor: '#EB5757',
+    borderBottomWidth: 0.5,
+    marginTop: 16,
+  },
+  time: {lineHeight: 84, color: '#28ABD8', fontSize: 72, textAlign: 'center'},
+  timeContainer: {
+    marginTop: '16%',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  resumeView: {
+    width: '100%',
+    marginTop: '4%',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: '16%',
+  },
+  sitBackContainer: {marginTop: '12%'},
+  yay: {
+    fontSize: 64,
+    color: '#6FCF97',
+    fontWeight: '500',
+    marginTop: '12%',
+  },
+  batterReady: {
+    fontSize: 32,
+    color: '#6FCF97',
+    fontWeight: '400',
+    marginTop: '2%',
+  },
+  btnView: {width: '40%', marginTop: '12%'},
+  modalContent: {
+    backgroundColor: 'white',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderRadius: 16,
+    paddingVertical: '8%',
+    paddingHorizontal: '6%',
+  },
+  modal: {
+    marginHorizontal: '8%',
+  },
+  lady: {height: 96, width: 96, resizeMode: 'contain'},
+  text: {
+    color: '#424242',
+    fontSize: 23,
+    fontWeight: '400',
+    textAlign: 'center',
+  },
+  btnContainer: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: '4%',
+  },
+  reusableButton: {borderRadius: 8},
+  text2: {fontSize: 20, lineHeight: 28},
+  text3: {
+    color: '#424242',
+    fontSize: 23,
+    fontWeight: '400',
+    textAlign: 'center',
+  },
+});
+
+export default styles;
